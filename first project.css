@@ -1,0 +1,851 @@
+body{
+    background-image: linear-gradient(to right, #89CFF0 50%, white 50%);
+    background-repeat: no-repeat;
+}
+
+/* body {
+    background-image: linear-gradient(to right, #89CFF0 50%, white  50%);
+        } */
+
+.container {
+    height: 250vh;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: linear-gradient(to right,  #89CFF0 50%, white 50%); */
+    text-align: center;
+    padding-bottom: 1500px; 
+}
+
+.child1{
+    font-size: 30px;
+    color: #89CFF0;
+}
+
+h1{
+    padding-left: 340px;  
+    font-size: 48px;
+}
+p{
+    padding-left: 380px;  
+    font-size: 20px;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+img:hover{
+  border: 5px solid rgb(155, 149, 149);
+}
+
+.container2{
+    padding: 40px;
+    display: grid;
+  place-items: start center;    /* Vertically center and horizontally left-align */
+     
+}
+#child2{
+    text-wrap: 50px;
+    font-size: 30px;
+    padding-left: 27rem;
+}
+.horizontal-line{
+    height: 2px;
+    background-color:#89CFF0;
+    width: 500px;
+    margin-left: 630px;
+    margin-top: 25px;
+}
+#child3{
+    margin-top: 4px;
+    font-size: 10px;
+     padding: 50px; 
+   width: 52rem;
+   margin-left: 200px;
+    color: grey;
+    text-align: start;
+}
+button:hover {
+  background-color: #0099ff;
+}
+
+.glass-effect {
+    position: relative;
+    bottom: 318px;
+    display: flex;
+    justify-content: right; 
+    margin-left: 450px;
+    padding: 100px;
+    width: 300px;
+    height: 387px;
+    background: rgba(0, 0, 0, 0.5);   
+    transform: translate(50%,50%);
+    margin-top: 20px;   
+}
+.glass-effect:hover {
+  border: 5px solid rgb(105, 103, 103);
+}
+.heading{
+    position: relative;
+    left:380px;
+    bottom: 70px;
+    font-size: 23px;
+    color: white;   
+}
+ .horizontal-line-2{
+    position: relative;
+    left: 300px;
+    width: 200px;
+    height: 10px;
+    margin-bottom: 50px;  
+} 
+
+.img-container{
+    background-image: url("./forty_image_32.jpg");
+    background-size: cover;
+    height: 580px;
+    width: 1400px;
+}
+.img-container:hover{
+  border: 2px solid rgb(155, 149, 149);
+}
+
+.paragraph p{
+    position: relative;
+    right: 200px;
+    font-size: 18px;
+    color: white;
+    margin-bottom: 30px;
+    text-align: start;
+}
+ 
+.card {
+    padding: 4px;
+    text-align: start;
+    position: relative;
+    left: 50px;
+    height: 450px;
+    bottom: 120rem;
+    margin-top: 190px;
+    right: 300px; 
+    width: 46%; 
+    background: rgba(5, 1, 1, 0.5);
+    transform: translate(0, 50%); 
+    color: white;
+    font-family: serif;
+}
+.card:hover{
+  border: 5px solid rgb(233, 232, 239) ;
+}
+
+.horizontal-line-3{
+    position: relative;
+    left: 80px;
+    top: 80px;
+    background-color: white;
+    width: 500px;
+    height: 1px;
+    
+} 
+ .paragraph-3{
+    position: relative;
+    right: 400px;
+    
+    top: 80px;
+    color: white;
+    font-size: 10px;
+    margin-left: 100px;
+
+} 
+.horizontal-line-4{
+    position: relative;
+    left: 300px;
+    bottom: 1650px;
+    background-color: white;
+    width: 500px;
+    height: 1px;
+}
+.card-2{
+    padding: 4px;
+    text-align: start;
+    position: relative;
+    height: 380px;
+    bottom: 1878px;
+    margin-top: 240px;
+    right: 65px;
+    width: 50%;
+    background: rgb(248, 247, 247); 
+    border-radius: 0px; 
+    border: 1px solid rgba(233, 218, 218, 0.3); 
+    transform: translate(0, 50%);
+    color: white;
+    font-family: serif;
+    opacity: 0.7; 
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-2:hover{
+  border: 5px solid rgb(211, 208, 208);
+}
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+  }
+  
+  /* Left side with circular icons */
+  .footer-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+    padding-bottom: 5%;
+    gap: 15px;
+   
+  }
+  
+  .icon-circle {
+    background-color: white;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .icon-circle i {
+    margin: 0; /* Center icon in circle */
+  }
+
+  .footer-right {
+    display: flex;
+    flex-direction: column;
+    gap: 40px; /* Space between form fields */
+    width: 100%;
+    margin-top: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.4);
+    color: #333;
+    font-size: 14px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    outline: none;
+  }
+  
+  .input-field::placeholder {
+    color: #999;
+  }
+  
+  /* Send button */
+  .send-button {
+    background-color: rgb(246, 248, 249);
+    border: none;
+    color: black;
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+    /* border-radius: 8px; */
+    font-weight: none;
+    cursor: pointer;
+    width: 15%;
+    margin-top: 10px;
+    margin-left: 33rem;
+  }
+  
+  .send-button:hover {
+    background-color: #0099ff;
+  }
+  .ending-p{
+    color: white;
+    margin-top: 150%;
+    position: relative;
+    bottom: 50px;
+    right: 150%;
+    font-size: 20px;
+  }
+  .icon-circle-1{
+    background-color: #89CFF0 ;
+    border-radius: 50%;
+    padding: 3px;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+  }
+  .footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 8px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    margin-top: 92%;
+    position: relative;
+    right: 108%;
+    bottom: 23%;
+  
+  }
+  .container-1{
+    color: white;
+    right: 1100px;
+    text-align: center;
+    position: absolute;
+    top: 135%;
+    font-size: 75px;
+  }
+  
+  .award{
+    right: 450px;
+    text-align: center;
+    position: absolute;
+    top: 270%;
+    font-size: 88px;
+    color: #3aa7da;
+  }
+  .two-lines{
+    right: 450px;
+    text-align: center;
+    position:absolute;
+    top: 282%;
+    font-size: 10px;
+    left: 40%;
+    width: 20px;
+  } 
+  /* Base Styles (Desktop) - as per your existing styles */
+/* Media Queries for smaller screen sizes */
+/* For tablets (between 768px and 1024px) */
+
+@media screen and (max-width: 1024px) {
+    
+  .container {
+      flex-direction: column;
+      align-items: flex-start;
+      padding-top: 10px;
+      background: linear-gradient(to bottom, #89CFF0 50%, white 50%);
+      text-align: center;
+      padding-bottom: 200px;  
+  }
+
+  h1 {
+      padding-left: 0px;
+      font-size: 40px;
+  }
+
+  p {
+      padding-left: 0px;
+      font-size: 18px;
+  }
+
+  .button {
+      margin-left: 0;
+      width: 100px;
+      height: 40px;
+  }
+
+  .glass-effect {
+      margin-left: 0;
+      padding: 50px;
+      width: 100%;
+  }
+
+  .img-container {
+      width: 100%;
+  }
+
+  .card {
+      width: 80%;
+      left: 0;
+  }
+
+  .card-2 {
+      width: 80%;
+      right: 0;
+  }
+
+  .footer {
+      flex-direction: column;
+      align-items: center;
+  }
+}
+
+/* For mobile devices (max-width: 768px) */
+@media screen and (max-width: 768px) {
+    body{
+        background-image: linear-gradient(to right, #89CFF0 50%, white 50%);
+        background-repeat: no-repeat;
+        
+    }
+  .container {
+    height: 245vh;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: linear-gradient(to right,  #89CFF0 50%, white 50%); */
+    text-align: center;
+    padding-bottom: 1500px; 
+    padding: 60px;
+  }
+  .child1{
+    font-size: 20px;
+    color:#89CFF0;
+  }
+
+  h1 {
+    margin-bottom: 30%;
+    margin-right: 38%;
+    font-size: 40px;
+  }
+
+  p {
+      font-size: 16px;
+      position: relative;
+      bottom: 18%;
+      left:17.5% ;
+      padding-left: 380px; 
+  }
+  img{
+    display: block;
+    position: relative;
+    bottom: 22%;
+    margin-left: auto;
+    margin-right: auto;
+    size: 200%;
+    height: 200%;
+    width: 500%;
+  }
+  img:hover{
+    border: 5px solid rgb(155, 149, 149);
+    }
+    .container2{
+        padding: 30px;
+        display: grid;
+      place-items: start center; 
+    }
+    #child2{
+        text-wrap: 30%;
+        font-size: 25%;
+        padding-left: 10rem;
+        color: #333;
+      }
+      .horizontal-line{
+        height: 2px;
+        background-color:black;
+        /* background-color:#89CFF0; */
+        width: 500px;
+        margin-left: 630px;
+        position: relative;
+        bottom: 5rem;
+      }
+
+  .img-container {
+      height: auto;
+      width: 100%;
+  }
+
+  .glass-effect {
+      padding: 20px;
+      width: 90%;
+      margin: 10px auto;
+     position: relative;
+     top: 20%;
+  }
+
+  .button {
+      margin-left: 0;
+      width: 100px;
+      height: 40px;
+      font-size: 14px;
+  }
+
+  .card {
+      width: 90%;
+      margin: 10px auto;
+  }
+
+  .card-2 {
+      width: 90%;
+      margin: 10px auto;
+      padding: 4px;
+      text-align: start;
+      position: relative;
+      left: 50px;
+      height: 450px;
+      top: 500rem; 
+      /* margin-bottom: 50%; */
+      right: 300px;  
+      background: rgba(5, 1, 1, 0.5);
+      transform: translate(0, 50%); 
+      color: white;
+      font-family: serif;
+     } 
+
+  .footer {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .footer-right, .footer-left {
+      width: 100%;
+      margin-bottom: 20px;
+  }
+
+  .input-field {
+      width: 80%;
+  }
+
+  .send-button {
+      width: 50%;
+  }
+
+  .container-1 {
+      top: 100%;
+      font-size: 50px;
+  }
+
+  .award {
+      top: 180%;
+      font-size: 60px;
+  }
+
+  .two-lines {
+      top: 195%;
+      font-size: 14px;
+  }
+}
+
+/* For extra small devices (max-width: 480px) */
+@media screen and (max-width: 480px) {
+  .container {
+      padding-top: 80%;
+      padding-left: 0px;
+      background-size: 50%;
+     
+  }
+
+  h1 {
+      font-size: 24px;
+      position: relative;
+      left: 50%;
+  }
+
+  p {
+      font-size: 14px;
+  }
+  img{
+    width: 100%;
+    height: 30%;
+    margin-top: 10%;
+  }
+
+  .img-container {
+      height: auto;
+      width: 100%;
+  }
+
+  .glass-effect {
+      padding: 10px;
+      width: 100%;
+      margin: 5px auto;
+  }
+
+  .button {
+      margin-left: 0;
+      width: 80px;
+      height: 30px;
+      font-size: 12px;
+  }
+
+  .card {
+      width: 100%;
+      margin: 5px auto;
+  }
+
+  .card-2 {
+      width: 100%;
+      margin: 5px auto;
+  }
+
+  .footer {
+      flex-direction: column;
+      text-align: center;
+      position: relative;
+      top: 300%;
+  }
+
+  .footer-right, .footer-left {
+      width: 100%;
+      margin-bottom: 10px;
+  }
+
+  .input-field {
+      width: 90%;
+  }
+
+  .send-button {
+      width: 60%;
+  }
+
+  .container-1 {
+      top: 110%;
+      font-size: 40px;
+  }
+
+  .award {
+      top: 220%;
+      font-size: 50px;
+  }
+
+  .two-lines {
+      top: 230%;
+      font-size: 12px;
+  }
+}
+
+  
+  
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
